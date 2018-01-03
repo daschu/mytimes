@@ -71,16 +71,57 @@ body {
 .column.large {
   width: 630px;
   display: flex;
+  background-color: #;
 }
 .column.medium {
   width: 300px;
   display: flex;
+  background-color: #;
 }
 .column.small {
   width: 240px;
   display: flex;
+  background-color: #;
+}
+.image-content {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  height: 300px;
 }
 
+.lead-story {
+  background-image: url("./images/img-story-main.png");
+}
+.story-earth {
+  background-image: url("./images/img-story-2.png");
+}
+.story-camera {
+  background-image: url("./images/img-story-3.png");
+}
+.story-cats {
+  background-image: url("./images/img-story-1.png");
+}
+h2 {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.image-content h2 {
+  font-size: 30px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+}
+.lead-story h2 {
+  font-size: 40px;
+}
+
+ .footer {
+  position: relative;
+  top: 91px;
+  background-color: MediumAquamarine;
+}
 
 /* will be deleted later */
 div {
