@@ -160,9 +160,10 @@ h2, h3 {
 }
 .footer .nav-line {
   display: flex;
-  width: 300px;
   flex-flow: row nowrap;
   justify-content: center;
+  margin-left: 85px;
+  width: 400px;
 }
 .footer .title {
   font-family: Georgia;
