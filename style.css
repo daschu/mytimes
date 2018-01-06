@@ -2,10 +2,6 @@ body {
   font-family: Verdana, Arial, sans-serif;
   font-size: 14px;
   color: black;
-  max-width: 1266px;
-  /* center the body by giving it margin-left and margin-right auto.
-  It is better to type out margin-left and margin-right instead of using the shorthad value to not give margin-top and margin-bottom any values.
-  Generally if a value does not have to be set it is best to not set it at all. */
   margin-left: auto;
   margin-right: auto;
 }
@@ -20,10 +16,6 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  /* Since the header is fixed it is taken out of the document flow so the max-width has to be assigned again for this element.
-  max-width: 1266px;
-  margin-left: auto;
-  margin-right: auto; */
   padding-left: 32px;
 
   /* justify-content: space-between;
@@ -59,9 +51,9 @@ body {
 }
 
 .main {
-  position: relative;
-  top: 91px;
   display: flex;
+  margin-top: 116px;
+  justify-content: center;
 }
 .column {
   /* Each column has a margin-right value of 32px.
@@ -162,11 +154,15 @@ h2, h3 {
    width: 100%;
    height: 325px;
    background-color: MediumAquamarine;
-   margin: auto;
    font-family: Verdana;
    font-size: 12px;
-   position: relative;
-   top: 120px;
+   margin-top: 120px;
+}
+.footer .nav-line {
+  display: flex;
+  width: 300px;
+  flex-flow: row nowrap;
+  justify-content: center;
 }
 .footer .title {
   font-family: Georgia;
@@ -179,17 +175,17 @@ h2, h3 {
   margin-right: 25px;
 }
 .footer .nav {
-  display: inline-block;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.footer .nav span {
+  margin-right: 12px;
 }
 .copyright {
-  display: block;
   margin-top: 2rem;
 }
-.footer .nav-line {
-  display: flex;
-  width: 300px;
-  flex-direction: row;
-}
+
 
 /* .footer nav {
   display: inline-block;
