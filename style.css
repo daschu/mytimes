@@ -163,7 +163,6 @@ h2, h3 {
   flex-flow: row nowrap;
   justify-content: center;
   margin-left: 85px;
-  width: 400px;
 }
 .footer .title {
   font-family: Georgia;
@@ -173,25 +172,18 @@ h2, h3 {
   display: inline-block;
   padding-right: 25px;
   border-right: 2px solid white;
-  margin-right: 25px;
+
 }
 .footer .nav {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
+  display:  inline-block;;
+  margin-left: 25px;
 }
 .footer .nav span {
   margin-right: 12px;
 }
 .copyright {
-  margin-top: 2rem;
+  margin-top: 1.6rem;
 }
-
-
-/* .footer nav {
-  display: inline-block;
-  padding-left: 25px;
-} */
 
 /* will be deleted later
 div {
