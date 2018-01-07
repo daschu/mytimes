@@ -10,13 +10,17 @@ body {
   width: 100%;
   border-bottom: 1px solid black;
   display: flex;
-  align-items: center;
   /* center a fixed positioned div:
   https://stackoverflow.com/a/17070034 */
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  padding-left: 32px;
+
+  /* justify-content: space-between;
+  flex-direction: row;
+  align-items: center; */
   z-index: 5;
   background-color: white;
 }
@@ -30,18 +34,17 @@ body {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding-left: 30px;
 }
 
 .nav {
   display: flex;
   align-items: center;
+  margin-right: 32px;
+  padding-right: 32px;
 }
-.nav-wrap {
-padding-right: 40px;
-}
+
 .nav span {
-  padding-left: 24px;
+  padding-right: 10px;
 }
 .nav span a {
   color: black;
@@ -159,6 +162,7 @@ h2, h3 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  margin-left: 85px;
 }
 .footer .title {
   font-family: Georgia;
@@ -173,6 +177,9 @@ h2, h3 {
 .footer .nav {
   display:  inline-block;;
   margin-left: 25px;
+}
+.footer .nav span {
+  margin-right: 12px;
 }
 .copyright {
   margin-top: 1.6rem;
